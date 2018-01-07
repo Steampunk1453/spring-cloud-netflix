@@ -16,7 +16,6 @@ public class HystrixDashboardApp
 {
     public static void main( String[] args )
     {
-
-        new SpringApplicationBuilder(HystrixDashboardApp.class).web(true).run(args);
+    	new SpringApplicationBuilder(HystrixDashboardApp.class).web(true).run(args);
     }
 }
